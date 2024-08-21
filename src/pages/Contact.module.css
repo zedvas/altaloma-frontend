@@ -1,0 +1,18 @@
+* {
+    /* background-color: var(--accent-color2) !important;
+    color: var(--secondary-color) !important; */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+h1 {
+    font-family: var(--secondary-font);
+}
+
+img {
+    height: 500px;
+}

@@ -1,0 +1,27 @@
+.cardWrapper {
+    /* height:40%; */
+    min-width: 300px;
+    width: 46vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 35px 0px;
+}
+
+.imgWrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.textWrapper p{
+    font-family: var(--primary-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textWrapper h2 {
+    font-family: var(--secondary-font);
+}

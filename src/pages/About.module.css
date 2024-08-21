@@ -1,0 +1,58 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 20px 20px 20px;
+}
+
+.wrapper > * {
+margin-bottom: 100px;}
+
+.wrapper:first-child {
+  margin-top: 0;
+}
+.banner {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("Stocksy_comp_1179747.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1{
+  font-size: 90px;
+  text-align: center;
+  display: block;
+  color: var(--secondary-color)
+}
+
+.banner h1::before {
+    content:"-";
+}
+.banner h1::after {
+    content:"-";
+}
+span {
+    display: block;;
+}
+
+.infoContainer {
+  width: 80%;
+}
+.infoContainer p {
+  font-family: var(--secondary-font);
+  font-size: 40px;
+  text-align: center;
+  color: var(--accent-color)
+}
+
+.ingredientsContainer {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
