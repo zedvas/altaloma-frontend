@@ -1,0 +1,30 @@
+/*index*/
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair+Display:wght@700&display=swap');
+
+:root {
+  --primary-color: rgb(20, 20, 21);
+  --secondary-color: #ded5d5;
+  --accent-color: rgb(34,54,22);
+  --accent-color2: rgb(168,68,50);
+  --primary-font: 'Marcellus', serif;
+  --secondary-font:'Playfair Display', serif;
+  font-size: 62.5%;
+}
+
+/*app.css*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--secondary-color);
+        padding: 0 2em;
+width: 100vw;
+  }
+  
+  .container {
+    width: 100%;
+  }

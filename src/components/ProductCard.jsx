@@ -8,7 +8,7 @@ const ProductCard = ({ product}) => {
             </div>
             <div className={ProductCardCSS.textWrapper}>
                 <h2>{product.name}</h2>
-                <p>£{product.price}</p>
+                <p className={ProductCardCSS.price}>{product.price}</p>
             </div>
         </div>
     )

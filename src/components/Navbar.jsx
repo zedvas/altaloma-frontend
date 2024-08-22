@@ -38,7 +38,6 @@ const Navbar = () => {
                 <Badge badgeContent={4} >
                     <ShoppingCartIcon/>
                 </Badge>
-                
                 <MenuIcon class={NavbarCSS.menuIcon} onClick={toggleNavbar} />
                 
             </div>

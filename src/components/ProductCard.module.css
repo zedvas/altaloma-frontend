@@ -1,12 +1,11 @@
 .cardWrapper {
-    /* height:40%; */
-    min-width: 300px;
-    width: 46vw;
+    /* width: 40vw; */
+    width: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px 35px 0px;
+    margin: 1em;
 }
 
 .imgWrapper img {
@@ -16,12 +15,15 @@
 
 .textWrapper p{
     font-family: var(--primary-font);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .textWrapper h2 {
     font-family: var(--secondary-font);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.price::before {
+    content: "£";
 }

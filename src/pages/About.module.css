@@ -3,54 +3,53 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px 20px 20px 20px;
 }
-
-.wrapper > * {
-margin-bottom: 100px;}
 
 .wrapper:first-child {
   margin-top: 0;
 }
 .banner {
-  height: 100vh;
+  height: 70vh;
   width: 100vw;
   background-image: url("Stocksy_comp_1179747.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1.5em 0;
 }
 
-.banner h1{
+.banner h1 {
   font-size: 90px;
   text-align: center;
   display: block;
-  color: var(--secondary-color)
+  color: var(--accent-color2);
+  opacity: 0.6;
+  letter-spacing: -3px;
+  line-height: 0.9em;
 }
 
 .banner h1::before {
-    content:"-";
+  content: "-";
 }
 .banner h1::after {
-    content:"-";
+  content: "-";
 }
 span {
-    display: block;;
+  display: block;
+  font-size: 70px;
 }
 
-.infoContainer {
-  width: 80%;
-}
+
 .infoContainer p {
   font-family: var(--secondary-font);
-  font-size: 40px;
-  text-align: center;
-  color: var(--accent-color)
+  font-size: 2.5rem;
+  text-align: left;
+  color: var(--accent-color);
 }
 
 .ingredientsContainer {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
