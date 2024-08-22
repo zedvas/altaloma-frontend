@@ -49,3 +49,18 @@
   background-color: var(--accent-color);
   color: var(--secondary-color);
 }
+
+@media screen and (min-width: 760px) {
+  .heroWrapper {
+    flex-direction: row-reverse;
+  }
+
+  .heroImage {
+    width: 50%;
+  }
+
+  .heroText {
+    width: 50%;
+    margin: auto;
+  }
+  }

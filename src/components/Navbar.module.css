@@ -27,6 +27,7 @@ a:visited {
   padding: 0 1em;
 }
 
+
 .center, .logoWrapper {
     display: flex;
     flex-direction: column;
@@ -36,11 +37,16 @@ a:visited {
 
 .logoWrapper {
   justify-content: center;
+  text-align: center;
 }
 
 .logo a {
   font-size: 3rem;
   font-family: var(--secondary-font);
+}
+
+.logo {
+  text-align: center;
 }
 
 .center {
