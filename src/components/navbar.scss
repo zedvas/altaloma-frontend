@@ -1,0 +1,60 @@
+.navbar {
+  width: 100vw;
+  display: flex;
+  padding: 2em;
+  justify-content: space-between;
+
+  ul {
+    display: none;
+  }
+
+  .socialIcon {
+    display: none;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  svg {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .navbar {
+    ul{
+      display: inline-block;
+    }
+    .socialIcon {
+      display: flex;
+      align-items: center;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2em;
+    }
+
+    .main {
+      text-align: center;
+    }
+
+    li {
+      margin: 0 1em;
+    }
+  }
+}

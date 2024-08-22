@@ -1,5 +1,6 @@
 /*index*/
 @import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair+Display:wght@700&display=swap");
+
 :root {
   --primary-color: rgb(20, 20, 21);
   --secondary-color: #ded5d5;
@@ -11,6 +12,7 @@
 }
 
 /*app.css*/
+
 * {
   margin: 0;
   padding: 0;
@@ -35,11 +37,10 @@ a {
   text-decoration: none;
   color: var(--primary-color);
 }
-
 ul {
   list-style: none;
 }
-
 img {
   width: 50px;
-}/*# sourceMappingURL=main.css.map */
+}
+

@@ -1,0 +1,49 @@
+.navbar {
+  width: 100vw;
+  display: flex;
+  padding: 2em;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: none;
+}
+.navbar .socialIcon {
+  display: none;
+}
+.navbar h1 {
+  font-size: 3rem;
+}
+.navbar li {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.navbar .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar svg {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 750px) {
+  .navbar ul {
+    display: inline-block;
+  }
+  .navbar .socialIcon {
+    display: flex;
+    align-items: center;
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+  }
+  .navbar .main {
+    text-align: center;
+  }
+  .navbar li {
+    margin: 0 1em;
+  }
+}/*# sourceMappingURL=navbar.css.map */
