@@ -1,10 +1,13 @@
+// import "../styles/hero.css";
+import '../styles/hero.css';
+
 const Hero = () => {
   return (
-    <div>
-      <div>
+    <div className="hero">
+      <div className='imageContainer'>
         <img src={"/3.jpg"} />
       </div>
-      <div>
+      <div className='heroText'>
         <h1>
           Soap for <br></br>every body
         </h1>

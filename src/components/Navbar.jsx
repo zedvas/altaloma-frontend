@@ -4,7 +4,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import Badge from "@mui/material/Badge";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import MenuIcon from "@mui/icons-material/Menu";
-import './navbar.css'
+import '../styles/navbar.css'
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
