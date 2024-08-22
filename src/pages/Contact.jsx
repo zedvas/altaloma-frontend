@@ -1,16 +1,15 @@
-import ContactCSS from "./Contact.module.css";
 
 const Contact = () => {
   return (
-    <div className={ContactCSS.wrapper}>
-      <h1 className={ContactCSS.heading}>Contact us</h1>
+    <div>
+      <h1>Contact us</h1>
       <form>
-        <div className={ContactCSS.names}>
-          <div className={ContactCSS.name}>
+        <div>
+          <div>
             <label htmlFor="firstName">First Name</label>
             <input type="text" id="firstName" name="firstName" />
           </div>
-          <div className={ContactCSS.name}>
+          <div>
             <label htmlFor="lastName">Last Name</label>
             <input type="text" id="lastName" name="lastName" />
           </div>
@@ -18,8 +17,8 @@ const Contact = () => {
         <label htmlFor="email">Email</label>
         <input type="text" id="email" name="email" />
         <label htmlFor="message">Message</label>
-        <textarea id="message" name="message" className={ContactCSS.messageInput}/>
-        <div className={ContactCSS.radioGroup}><div><label htmlFor="stockistEnquiry">Stockist Enquiry</label>
+        <textarea id="message" name="message"/>
+        <div><div><label htmlFor="stockistEnquiry">Stockist Enquiry</label>
         <input
           type="radio"
           name="interest"

@@ -1,17 +1,17 @@
-import ProductCardCSS from './ProductCard.module.css';
+import ProductCardCSS from "./ProductCard";
 
-const ProductCard = ({ product}) => {
-    return (
-        <div className={ProductCardCSS.cardWrapper}>
-            <div className={ProductCardCSS.imgWrapper}>
-                <img src={product.src} alt="" /> 
-            </div>
-            <div className={ProductCardCSS.textWrapper}>
-                <h2>{product.name}</h2>
-                <p className={ProductCardCSS.price}>{product.price}</p>
-            </div>
-        </div>
-    )
-}
+const ProductCard = ({ product }) => {
+  return (
+    <div>
+      <div>
+        <img src={product.src} alt="" />
+      </div>
+      <div >
+        <h2>{product.name}</h2>
+        <p >{product.price}</p>
+      </div>
+    </div>
+  );
+};
 
-export default ProductCard
+export default ProductCard;
