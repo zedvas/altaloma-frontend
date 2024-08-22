@@ -17,8 +17,6 @@ const Footer = () => {
           <Link to="./journal">Journal</Link>
           <Link to="./about">About</Link>
           <Link to="./contact">Contact</Link>
-          <Link to="./shipping">Shipping and Returns</Link>
-          <Link to="./stockists">Stockists</Link>
         </div>
       </div>
       <div className={FooterCSS.signup}>
