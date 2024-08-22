@@ -1,14 +1,14 @@
-import ProductCardCSS from "./ProductCard";
+import "../styles/productCard.css"
 
 const ProductCard = ({ product }) => {
   return (
-    <div>
+    <div className="productCard">
       <div>
         <img src={product.src} alt="" />
       </div>
       <div >
         <h2>{product.name}</h2>
-        <p >{product.price}</p>
+        <p className="price">{product.price}</p>
       </div>
     </div>
   );

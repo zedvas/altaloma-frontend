@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productCard {
+  width: 48%;
+  margin: 1em 0.3em;
+  text-align: center;
+}
+.productCard img {
+  width: 100%;
+}
+.productCard h2 {
+  font-size: 1.8rem;
+}
+.productCard p {
+  font-size: 1.3rem;
+}
+.productCard .price::before {
+  content: "£";
+}/*# sourceMappingURL=productCard.css.map */

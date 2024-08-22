@@ -5,7 +5,7 @@ import { productList } from "../productList";
 const Shop = () => {
   const [products, setProducts] = useState(productList);
   return (
-    <div>
+    <div className="shop">
       {products.map((product) => (
         <ProductCard product={product} key={product.id} />
       ))}
