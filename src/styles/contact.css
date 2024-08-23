@@ -1,0 +1,65 @@
+.contact {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+.contact img {
+  width: 60%;
+}
+.contact label, .contact input, .contact textarea {
+  font-family: var(--primary-font);
+}
+.contact label {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+.contact h1 {
+  align-self: flex-start;
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+}
+.contact .names {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .name {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.contact input, .contact textarea {
+  font-size: 1.7rem;
+  margin: 0 0 1em 0;
+  padding: 0;
+  text-align: left;
+  padding: 1em;
+  border-radius: 20px;
+  border: none;
+}
+.contact textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  height: 100px;
+  padding: 1em;
+}
+.contact input[type=radio] {
+  height: 1rem;
+  width: 1rem;
+}
+.contact .radioGroup label {
+  width: 50%;
+}
+.contact .radioGroup div {
+  display: flex;
+}
+.contact form {
+  margin-bottom: 2em;
+}
+.contact input[type=email] {
+  width: 100%;
+}
+.contact button {
+  font-size: 1.4rem;
+}/*# sourceMappingURL=contact.css.map */
