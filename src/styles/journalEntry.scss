@@ -1,0 +1,50 @@
+.journalEntry {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 3em;
+
+  img {
+    width: 100%;
+  }
+  .imageContainer {
+    height: 100%;
+    margin-bottom: 2em;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin: 0.5em 0 1em 0;
+    line-height: 1em;
+  }
+
+  .date {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .journalEntry:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .journalEntry {
+    flex-direction: row;
+    margin: 0;
+
+    .textContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2em;
+    }
+
+    .imageContainer {
+      max-width: 500px;
+    }
+  }
+}

@@ -61,7 +61,7 @@
   margin-top: 0;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
   .footer .links {
     width: 70%;
   }
