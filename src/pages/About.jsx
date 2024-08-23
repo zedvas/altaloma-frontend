@@ -2,23 +2,23 @@ import AboutEntry from "../components/AboutEntry";
 import { ingredientsList } from "../journalList";
 import { useState } from "react";
 import IngredientsCard from "../components/IngredientsCard";
+import "../styles/about.css";
 
 const About = () => {
   const [ingredients, setIngredients] = useState(ingredientsList);
   return (
-    <div>
+    <div className="about">
       <AboutEntry />
-      <div>
+      <div className="banner">
         <h1>
-          <br />
-          From the Earth,
+          From the Earth, <br />
           <span>
             <em>for the body</em>
           </span>
         </h1>
       </div>
 
-       <div>
+      <div className="infoContainer">
         <p>
           Every ingredient is considered when being added to our products. It
           all begins with an idea. Maybe you want to launch a business. Maybe
@@ -28,11 +28,11 @@ const About = () => {
         </p>
       </div>
 
-      <div>
+      <div className="ingredientsContainer">
         {ingredients.map((ingredient) => (
           <IngredientsCard ingredient={ingredient} id={ingredient.id} />
         ))}
-      </div> 
+      </div>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import {useState} from 'react';
 const Journal = () => {
   const [journals, setJournals] = useState(journalList);
   return (
-    <div className="journals">
+    <div>
       {journals.map((journal) => (
         <JournalEntry journal={journal} key={journal.id}/>
       ))}
