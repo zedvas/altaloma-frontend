@@ -1,68 +1,73 @@
 .contact {
-    max-width: 700px;;
-        display: flex; 
-        flex-direction: column;
-    img {
-        width: 60%
-    }
-    label, input, textarea {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 60%;
+  }
+  label,
+  input,
+  textarea {
     font-family: var(--primary-font);
-}
+  }
 
-label {
+  label {
     display: block;
     font-size: 1.5rem;
-    margin-bottom: 1em
-}
-h1 {
+    margin-bottom: 1em;
+  }
+  h1 {
     align-self: flex-start;
     font-size: 4rem;
     margin-bottom: 0.5em;
-}
-.names {
+  }
+  .names {
     display: flex;
     justify-content: space-between;
-}
-.name {
-    display: flex;flex-direction: column; width: 48%;
-}
+    width: 90%;
+  }
+  .name {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
 
-input, textarea {
-    font-size: 1.7rem;
+  input,
+  textarea {
+    font-size: 1.4rem;
     margin: 0 0 1em 0;
     padding: 0;
     text-align: left;
-    padding: 1em;
+    padding: 0.3em 1em;
     border-radius: 20px;
     border: none;
-}
+  }
 
-textarea {
+  textarea {
     display: block;
-    width: 100%;
-    border:none;
+    width: 90%;
+    border: none;
     height: 100px;
     padding: 1em;
-}
-input[type="radio"] {
-    height:1rem;
+  }
+  input[type="radio"] {
+    height: 1rem;
     width: 1rem;
-}
-.radioGroup label {
-    width: 50%
-}
+  }
+  .radioGroup label {
+    width: 50%;
+  }
 
-.radioGroup div{
+  .radioGroup div {
     display: flex;
-}
-form {
-    margin-bottom: 2em;;
-}
-input[type="email"] {
-    width: 100%;
-}
-button {
+  }
+  form {
+    margin-bottom: 2em;
+  }
+  input[type="email"] {
+    width: 90%;
+  }
+  button {
     font-size: 1.4rem;
+  }
 }
-}
-
