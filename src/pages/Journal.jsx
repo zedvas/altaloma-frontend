@@ -1,5 +1,5 @@
 import JournalEntry from "../components/JournalEntry";
-import { journalList } from "../journalList";
+import { journalList } from "../../journalList.js";
 import {useState} from 'react';
 
 const Journal = () => {

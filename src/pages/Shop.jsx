@@ -1,6 +1,6 @@
 import ProductCard from "../components/ProductCard";
 import { useState } from "react";
-import { productList } from "../productList";
+import { productList } from "../../productlist.js";
 
 const Shop = () => {
   const [products, setProducts] = useState(productList);

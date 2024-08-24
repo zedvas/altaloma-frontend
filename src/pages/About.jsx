@@ -1,5 +1,5 @@
 import AboutEntry from "../components/AboutEntry";
-import { ingredientsList } from "../journalList";
+import { ingredientsList } from "../../journalList";
 import { useState } from "react";
 import IngredientsCard from "../components/IngredientsCard";
 import "../styles/about.css";

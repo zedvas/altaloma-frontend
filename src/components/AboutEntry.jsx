@@ -1,4 +1,4 @@
-import { aboutList as aboutHero } from "../journalList";
+import { aboutList as aboutHero } from "../../journalList.js"
 
 const AboutEntry = () => {
   return (
