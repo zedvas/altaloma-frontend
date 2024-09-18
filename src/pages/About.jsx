@@ -30,7 +30,7 @@ const About = () => {
 
       <div className="ingredientsContainer">
         {ingredients.map((ingredient) => (
-          <IngredientsCard ingredient={ingredient} id={ingredient.id} />
+          <IngredientsCard ingredient={ingredient} id={ingredient.id} key={ingredient.id}/>
         ))}
       </div>
     </div>

@@ -20,14 +20,18 @@
 body {
   background-color: var(--secondary-color);
   font-family: var(--primary-font);
-  width: 100vw;
+  width: 100%;
   max-width: 1080px;
   margin: auto;
   display: flex;
 }
 
+@media screen and (min-width: 700px) {
+  body {
+    width: 100vw;
+  }
+}
 .container {
-  width: 100%;
   padding: 0em 2em;
   display: flex;
   flex-direction: column;

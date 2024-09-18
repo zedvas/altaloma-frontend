@@ -32,11 +32,33 @@
   svg {
     font-size: 2rem;
   }
+
+  .displayMenu {
+    display: block;
+    background-color: var(--secondary-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index:1
+  }
+
+  .closeHamburger {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 700px) {
   .navbar {
-    ul{
+    ul {
       display: inline-block;
     }
     .socialIcon {
@@ -57,6 +79,10 @@
 
     li {
       margin: 0 1em;
+    }
+
+    .hamburger, .closeHamburger {
+      display: none;
     }
   }
 }

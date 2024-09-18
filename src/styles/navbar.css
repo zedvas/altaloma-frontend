@@ -26,6 +26,26 @@
 .navbar svg {
   font-size: 2rem;
 }
+.navbar .displayMenu {
+  display: block;
+  background-color: var(--secondary-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+.navbar .closeHamburger {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
 
 @media screen and (min-width: 700px) {
   .navbar ul {
@@ -46,5 +66,8 @@
   }
   .navbar li {
     margin: 0 1em;
+  }
+  .navbar .hamburger, .navbar .closeHamburger {
+    display: none;
   }
 }/*# sourceMappingURL=navbar.css.map */
